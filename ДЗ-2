@@ -1,0 +1,30 @@
+from os import system
+system('cls')
+
+float_num = input('input float number: ')
+print(type(float_num))
+sum = 0
+for i in float_num:
+     if i != ' . ':
+     sum += int(i)
+print(sum)
+
+
+n = int(input('input N: '))
+factorial = 1
+for i in range(1, n+1):
+     factorial *= i
+     print(factorial, end='')
+     
+     
+    
+ --Для N = 5: 1, -3, 9, -27, 81
+
+from random import randint
+
+N = int(input('Введите число N: '))
+for i in range(N):
+    print (randint(-100, 100), end=" ")
+ N = int(input('Введите число N: '))
+ for i in range(N):
+    print (randint(-100, 100), end=" ")
